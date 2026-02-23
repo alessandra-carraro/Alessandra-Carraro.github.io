@@ -1,1 +1,90 @@
+:root {
+    --accent: #7a1f2b;        /* burgundy */
+    --accent-soft: #a94455;   /* lighter hover tone */
+    --text: #222;
+    --muted: #777;
+    --border: #e5e5e5;
+}
 
+body {
+    font-family: "Georgia", serif;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    color: var(--text);
+    line-height: 1.7;
+}
+
+header {
+    max-width: 820px;
+    margin: 60px auto 10px auto;
+    padding: 0 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 38px;
+    letter-spacing: 0.5px;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: var(--accent);
+}
+
+nav {
+    margin-top: 18px;
+}
+
+nav a {
+    margin-right: 22px;
+    text-decoration: none;
+    color: var(--accent);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: var(--accent-soft);
+}
+
+main {
+    max-width: 820px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+h2 {
+    margin-top: 55px;
+    font-weight: normal;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 6px;
+    color: var(--accent);
+}
+
+a {
+    color: var(--accent);
+}
+
+a:hover {
+    color: var(--accent-soft);
+}
+
+footer {
+    max-width: 820px;
+    margin: 90px auto 40px auto;
+    padding: 0 20px;
+    font-size: 14px;
+    color: var(--muted);
+}
+
+/* subtle horizontal divider under header */
+header::after {
+    content: "";
+    display: block;
+    height: 2px;
+    background: var(--accent);
+    margin-top: 25px;
+    width: 60px;
+}

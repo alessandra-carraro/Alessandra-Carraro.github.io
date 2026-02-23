@@ -1,3 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Alessandra Carraro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Alessandra Carraro</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="cv.html">CV</a>
+        <a href="research.html">Research</a>
+        <a href="contacts.html">Contacts</a>
+        <a href="where-to-find-me.html">Where to find me</a>
+    </nav>
+</header>
+
+<main>
+  
 #### :mortar_board: Prospective expert on populism with an explicitly interdisciplinary orientation. 
 ##### :books: Reading widely across sciences - political science, psychology, communication, history, theory, neurosciences, physics, and sociology; and approaches - theoretical, experimental, and observational.
 ##### :writing_hand: Writing on populism from a political psychology perspective, with particular attention to the cognitive and emotional foundations of political attitudes. 
@@ -17,3 +39,10 @@ Alongside my research, I work at Bocconi as a teaching assistant and lecturer fo
 
 I have presented my work at international conferences and interdisciplinary workshops spanning political science and social psychology. I also serve as Editorial Manager for the [Journal of European Integration](https://www.tandfonline.com/journals/geui20) and regularly review academic articles for PLOS ONE and Frontiers in Psychology.
 <br clear="left"/>
+
+<footer>
+    <p>© 2026 Alessandra Carraro</p>
+</footer>
+
+</body>
+</html>

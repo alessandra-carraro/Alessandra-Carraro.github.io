@@ -83,7 +83,6 @@ main{
 .section h2{
   margin: 0 0 12px 0;
   font-size: 22px;
-  color: var(--accent);
   font-weight: 650;
 }
 

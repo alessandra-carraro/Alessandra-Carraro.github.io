@@ -20,6 +20,10 @@ body{
   font-size: 17px;
 }
 
+/* Make all headings burgundy */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--accent);
+}
 a{ color:var(--accent); }
 a:hover{ color:var(--accent-2); }
 

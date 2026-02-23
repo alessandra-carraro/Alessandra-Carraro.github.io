@@ -27,7 +27,7 @@ header{
   max-width: var(--max);
   margin: 56px auto 0 auto;
   padding: 0 20px 18px 20px;
-  border-bottom: 2px solid var(--accent);
+  border-bottom: 2px solid var(--text);
 }
 
 header h1{

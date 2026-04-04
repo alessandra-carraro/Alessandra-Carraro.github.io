@@ -79,24 +79,22 @@ main{
   padding:0 20px;
 }
 
-/* Base section: same typography, spacing, and indentation as normal page text */
 .section{
   margin:40px 0;
   padding:0;
 }
 
-/* Optional highlighted section: same text styling, only adds background treatment */
 .section-highlight{
   background:var(--panel);
   border:1px solid var(--border);
   border-radius:12px;
-  padding:18px 20px;
+  padding:8px 10px;
 }
 
 /* Consistent section titles */
 .section h2{
   margin:0 0 14px 0;
-  font-size:22px;
+  font-size:20px;
   font-weight:600;
   line-height:1.35;
 }

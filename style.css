@@ -162,6 +162,12 @@ main{
   margin:10px 0;
 }
 
+.wip-list a{
+  display: block;
+  margin-top: 6px;
+  font-size: 14px;
+}
+
 footer{
   max-width:var(--max);
   margin:60px auto 36px auto;
